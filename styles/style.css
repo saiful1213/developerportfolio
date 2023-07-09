@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+/* common style  */
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Open Sans', sans-serif;
+}
+.btn {
+   padding: 18px 30px;
+   color: #FFF;
+   font-size: 20px;
+   font-weight: 700;
+   border-radius: 5px;
+   background: #FD6E0A;
+   border: 0;
+}
+.fa-arrow-down,
+.fa-solid {
+   margin-right: 10px;
+}
+.section {
+   width: 1000px;
+   margin: 150px auto;
+   padding: 30px 0px;
+}
+.section-title {
+   color: #181818;
+   text-align: center;
+   font-size: 35px;
+   margin-bottom: 30px;
+   font-weight: 700;
+}
+.section-desc {
+   color: #757575;
+   text-align: center;
+   font-size: 18px;
+   line-height: 30px;
+}
+/* navigation bar style  */
+.nav-container {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   padding: 30px 50px;
+}
+.nav-container ul {
+   display: flex;
+   align-items: center;
+}
+.nav-container li {
+   list-style: none;
+   margin-right: 50px;
+}
+.nav-container a {
+   text-decoration: none;
+   color: #474747;
+   font-size: 20px;
+}
+.nav-container h2 {
+   color: #181818;
+   font-size: 45px;
+   font-weight: 700;
+}
+.nav-container span {
+   color: #FD6E0A;
+}
+/* banner part style  */
+.banner-container {
+   display: flex;
+   justify-content: space-between;
+   background: url('../images/developer.png'), url('../images/header_bg.png');
+   background-repeat: no-repeat;
+   background-position: top left, bottom right;
+   background-size: contain;
+   margin: 50px 0 50px 50px;
+}
+.left-banner {
+   padding-left: 158px;
+   padding-top: 50px;
+}
+.banner-container h4 {
+   color: #474747;
+   font-size: 45px;
+   font-weight: 600;
+   margin-bottom: 5px;
+}
+.banner-container h2 {
+   margin-top: 5px;
+   color: #181818;
+   font-size: 85px;
+   font-weight: 700;
+   margin-bottom: 20px;
+}
+.banner-container p {
+   color: #757575;
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 30px;
+   margin-bottom: 30px;
+}
+.banner-container button {
+   margin-right: 30px;
+}
+.right-banner {
+   padding-right: 20px;
+}
+.right-banner img {
+   width: 350px;
+   height: 100%;
+}
+/* about section style  */
+.about-container {
+   display: flex;
+   justify-content: space-evenly;
+}
+.container {
+   text-align: center;
+   font-size: 20px;
+   line-height: 30px;
+   margin-top: 40px;
+}
+.container h5 {
+   color: #757575;
+}
+.container p {
+   color: #474747;
+}
+/* what i do section style  */
+.card-container {
+   display: flex;
+   margin-top: 80px;
+   justify-content: space-between;
+}
+.card {
+   margin: 0 10px;
+   box-shadow: 3px 2px 15px gray;
+}
+.card-title {
+   margin-top: 30px;
+   margin-bottom: 20px;
+   color: #181818;
+   font-size: 20px;
+   font-weight: 700;
+}
+.card-desc {
+   color: #757575;
+   line-height: 28px;
+}
+/* summary part style  */
+.summary-container {
+   display: flex;
+}
+.summary-column {
+   padding: 10px;
+}
+.column-title {
+   color: #474747;
+   font-size: 30px;
+   font-weight: 700;
+   margin-bottom: 30px;
+}
+.summary-title {
+   color: #474747;
+   font-size: 25px;
+   font-weight: 700;
+}
+.summary-subtitle {
+   color: #757575;
+   font-size: 20px;
+   font-weight: 600;
+   margin-top: 10px;
+}
+.summary-desc {
+   color: #757575;
+   font-weight: 400;
+   line-height: 28px;
+   margin-top: 20px;
+   margin-bottom: 50px;
+}
+.summary-card-container hr {
+   width: 90%;
+}
+.btn-parent {
+   display: flex;
+   justify-content: center;
+}
+/* footer part style  */
+footer {
+   width: 1000px;
+   margin: 0px auto;
+   padding: 30px 0px;
+   background: #FFF8F3;
+}
+.footer-container {
+   display: flex;
+}
+.footer-left{
+   padding: 15px;
+}
+.footer-title {
+   color: #181818;
+   /* text-align: center; */
+   font-size: 35px;
+   font-weight: 700;
+}
+.footer-desc {
+   color: #474747;
+   line-height: 28px;
+   margin-top: 20px;
+   margin-bottom: 30px;
+}
+input,
+textarea {
+   color: #757575;
+   font-weight: 400;
+   line-height: 28px;
+   display: block;
+   padding: 20px;
+   margin-bottom: 10px;
+   border-radius: 10px;
+   border: 0;
+}
+textarea{
+   resize: none;
+}
+.bottom-margin{
+   margin-bottom: 15px;
+}
